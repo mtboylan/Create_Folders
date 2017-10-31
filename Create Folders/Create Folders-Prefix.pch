@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Create Folders' target in the 'Create Folders' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

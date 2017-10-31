@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB09C3E6193F508200BC48D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB09C3E5193F508200BC48D8 /* Images.xcassets */; };
+		EB4CC728171CEF8800A9D8CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4CC727171CEF8800A9D8CA /* Cocoa.framework */; };
+		EB4CC72A171CEF8800A9D8CA /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4CC729171CEF8800A9D8CA /* AppleScriptObjC.framework */; };
+		EB4CC734171CEF8800A9D8CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB4CC732171CEF8800A9D8CA /* InfoPlist.strings */; };
+		EB4CC736171CEF8800A9D8CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4CC735171CEF8800A9D8CA /* main.m */; };
+		EB4CC73A171CEF8800A9D8CA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EB4CC738171CEF8800A9D8CA /* Credits.rtf */; };
+		EB4CC73C171CEF8800A9D8CA /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = EB4CC73B171CEF8800A9D8CA /* AppDelegate.applescript */; };
+		EB4CC73F171CEF8800A9D8CA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB4CC73D171CEF8800A9D8CA /* MainMenu.xib */; };
+		EB9CAD5219759E1B0016DF6D /* NSAlert+MyriadHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9CAD5119759E1B0016DF6D /* NSAlert+MyriadHelpers.m */; };
+		EBBF7A5C17BA913000B97EC9 /* Create Folders.icns in Resources */ = {isa = PBXBuildFile; fileRef = EBBF7A5B17BA913000B97EC9 /* Create Folders.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB09C3E5193F508200BC48D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB4CC724171CEF8800A9D8CA /* Create Folders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Create Folders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4CC727171CEF8800A9D8CA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EB4CC729171CEF8800A9D8CA /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		EB4CC72C171CEF8800A9D8CA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EB4CC72D171CEF8800A9D8CA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EB4CC72E171CEF8800A9D8CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB4CC731171CEF8800A9D8CA /* Create Folders-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Create Folders-Info.plist"; sourceTree = "<group>"; };
+		EB4CC733171CEF8800A9D8CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB4CC735171CEF8800A9D8CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB4CC737171CEF8800A9D8CA /* Create Folders-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Create Folders-Prefix.pch"; sourceTree = "<group>"; };
+		EB4CC739171CEF8800A9D8CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EB4CC73B171CEF8800A9D8CA /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		EB4CC73E171CEF8800A9D8CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EB9CAD5019759E1B0016DF6D /* NSAlert+MyriadHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAlert+MyriadHelpers.h"; sourceTree = "<group>"; };
+		EB9CAD5119759E1B0016DF6D /* NSAlert+MyriadHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAlert+MyriadHelpers.m"; sourceTree = "<group>"; };
+		EBBF7A5B17BA913000B97EC9 /* Create Folders.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Create Folders.icns"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB4CC721171CEF8800A9D8CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4CC728171CEF8800A9D8CA /* Cocoa.framework in Frameworks */,
+				EB4CC72A171CEF8800A9D8CA /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB4CC71B171CEF8800A9D8CA = {
+			isa = PBXGroup;
+			children = (
+				EBBF7A5B17BA913000B97EC9 /* Create Folders.icns */,
+				EB4CC72F171CEF8800A9D8CA /* Create Folders */,
+				EB4CC726171CEF8800A9D8CA /* Frameworks */,
+				EB4CC725171CEF8800A9D8CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB4CC725171CEF8800A9D8CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB4CC724171CEF8800A9D8CA /* Create Folders.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB4CC726171CEF8800A9D8CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB4CC727171CEF8800A9D8CA /* Cocoa.framework */,
+				EB4CC729171CEF8800A9D8CA /* AppleScriptObjC.framework */,
+				EB4CC72B171CEF8800A9D8CA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB4CC72B171CEF8800A9D8CA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB4CC72C171CEF8800A9D8CA /* AppKit.framework */,
+				EB4CC72D171CEF8800A9D8CA /* CoreData.framework */,
+				EB4CC72E171CEF8800A9D8CA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EB4CC72F171CEF8800A9D8CA /* Create Folders */ = {
+			isa = PBXGroup;
+			children = (
+				EB4CC73B171CEF8800A9D8CA /* AppDelegate.applescript */,
+				EB4CC73D171CEF8800A9D8CA /* MainMenu.xib */,
+				EB09C3E5193F508200BC48D8 /* Images.xcassets */,
+				EB4CC730171CEF8800A9D8CA /* Supporting Files */,
+			);
+			path = "Create Folders";
+			sourceTree = "<group>";
+		};
+		EB4CC730171CEF8800A9D8CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB9CAD5019759E1B0016DF6D /* NSAlert+MyriadHelpers.h */,
+				EB9CAD5119759E1B0016DF6D /* NSAlert+MyriadHelpers.m */,
+				EB4CC731171CEF8800A9D8CA /* Create Folders-Info.plist */,
+				EB4CC732171CEF8800A9D8CA /* InfoPlist.strings */,
+				EB4CC735171CEF8800A9D8CA /* main.m */,
+				EB4CC737171CEF8800A9D8CA /* Create Folders-Prefix.pch */,
+				EB4CC738171CEF8800A9D8CA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB4CC723171CEF8800A9D8CA /* Create Folders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4CC742171CEF8800A9D8CA /* Build configuration list for PBXNativeTarget "Create Folders" */;
+			buildPhases = (
+				EB4CC720171CEF8800A9D8CA /* Sources */,
+				EB4CC721171CEF8800A9D8CA /* Frameworks */,
+				EB4CC722171CEF8800A9D8CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Create Folders";
+			productName = "Create Folders";
+			productReference = EB4CC724171CEF8800A9D8CA /* Create Folders.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB4CC71C171CEF8800A9D8CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Our Sunday Visitor";
+			};
+			buildConfigurationList = EB4CC71F171CEF8800A9D8CA /* Build configuration list for PBXProject "Create Folders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB4CC71B171CEF8800A9D8CA;
+			productRefGroup = EB4CC725171CEF8800A9D8CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB4CC723171CEF8800A9D8CA /* Create Folders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB4CC722171CEF8800A9D8CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4CC734171CEF8800A9D8CA /* InfoPlist.strings in Resources */,
+				EB4CC73A171CEF8800A9D8CA /* Credits.rtf in Resources */,
+				EB09C3E6193F508200BC48D8 /* Images.xcassets in Resources */,
+				EB4CC73F171CEF8800A9D8CA /* MainMenu.xib in Resources */,
+				EBBF7A5C17BA913000B97EC9 /* Create Folders.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB4CC720171CEF8800A9D8CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4CC736171CEF8800A9D8CA /* main.m in Sources */,
+				EB9CAD5219759E1B0016DF6D /* NSAlert+MyriadHelpers.m in Sources */,
+				EB4CC73C171CEF8800A9D8CA /* AppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB4CC732171CEF8800A9D8CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB4CC733171CEF8800A9D8CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EB4CC738171CEF8800A9D8CA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB4CC739171CEF8800A9D8CA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EB4CC73D171CEF8800A9D8CA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB4CC73E171CEF8800A9D8CA /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB4CC740171CEF8800A9D8CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EB4CC741171CEF8800A9D8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EB4CC743171CEF8800A9D8CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Create Folders/Create Folders-Prefix.pch";
+				INFOPLIST_FILE = "Create Folders/Create Folders-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OSACOMPILE_EXECUTE_ONLY = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB4CC744171CEF8800A9D8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Create Folders/Create Folders-Prefix.pch";
+				INFOPLIST_FILE = "Create Folders/Create Folders-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OSACOMPILE_EXECUTE_ONLY = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB4CC71F171CEF8800A9D8CA /* Build configuration list for PBXProject "Create Folders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4CC740171CEF8800A9D8CA /* Debug */,
+				EB4CC741171CEF8800A9D8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4CC742171CEF8800A9D8CA /* Build configuration list for PBXNativeTarget "Create Folders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4CC743171CEF8800A9D8CA /* Debug */,
+				EB4CC744171CEF8800A9D8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB4CC71C171CEF8800A9D8CA /* Project object */;
+}
